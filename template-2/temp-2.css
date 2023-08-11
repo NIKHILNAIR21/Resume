@@ -172,6 +172,11 @@ h2 {
   flex: 2;
   text-align: justify;
 }
+.about-content p {
+  background-color: rgb(215, 223, 234);
+  padding: 10px;
+  border-radius: 7px;
+}
 .about-content h2 {
   color: #0077ff;
   letter-spacing: 3px;
