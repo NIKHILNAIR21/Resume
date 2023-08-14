@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(255, 230, 193);
+}
+header {
+  text-align: center;
+  background-color: #ff9900; /* Mastercard's brand color */
+  color: #fff;
+  padding: 0.2rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.about,
+.experience,
+.education,
+.skills {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.skill-p {
+  display: flex;
+}
+.skill-p p {
+  margin: 1rem;
+}
+.about h2,
+.experience h2,
+.education h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.date {
+  color: #999;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}

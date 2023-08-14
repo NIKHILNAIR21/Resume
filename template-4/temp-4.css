@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #444;
+}
+.info {
+  text-align: right;
+}
+.header-container {
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #252a34;
+  color: #fff;
+}
+
+.header-container img {
+  width: 63px;
+  height: 70px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+.about {
+  background-color: #333333;
+  margin: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(55, 255, 0, 0.2);
+}
+.personal-info {
+  padding: 1px;
+  display: flex;
+  line-height: 0.1;
+  justify-content: space-evenly;
+}
+
+.personal-info h2 {
+  color: #e3e3e3;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.personal-info p {
+  color: #e3e3e3;
+}
+.about h2 {
+  background-color: rgb(8, 103, 8);
+  width: 12%;
+  padding: 6px;
+  color: #e3e3e3;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.about p {
+  color: #e3e3e3;
+  line-height: 1.6;
+}
+.experience h2 {
+  background-color: rgb(224, 170, 7);
+  width: 13%;
+  padding: 6px;
+  color: #efefef;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.experience {
+  background-color: #333333;
+  margin: 20px;
+  padding: 8px;
+  color: #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(255, 255, 3, 0.2);
+}
+.education {
+  background-color: #333333;
+  margin: 20px;
+  padding: 8px;
+  color: #e3e3e3;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(24, 3, 255, 0.2);
+}
+.education h2 {
+  background-color: rgb(46, 3, 186);
+  width: 12%;
+  padding: 6px;
+  color: #efefef;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.skills {
+  background-color: #333333;
+  margin: 20px;
+  padding: 8px;
+  color: #efefef;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(3, 242, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+.skills h2 {
+  background-color: rgb(5, 143, 156);
+  width: 6%;
+  padding: 6px;
+  color: #efefef;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #252a34;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #e3e3e3;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
