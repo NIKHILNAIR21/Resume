@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  padding: auto;
+  background-color: #3f4a5c;
+}
+header {
+  text-align: center;
+  background-color: #1b1d21; /* Prime Video's brand color */
+  padding: 1rem 0;
+}
+
+header img {
+  width: 100px; /* Adjust the logo width */
+  height: auto;
+  box-shadow: 0 0 10px rgba(160, 188, 255, 0.01);
+}
+
+header h1 {
+  margin: 1rem 0 0.5rem;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+header p {
+  color: #bbb;
+}
+.about {
+  width: 25%;
+}
+.about,
+.experience,
+.education,
+.skills,
+.Personal-info {
+  padding: 1.5rem;
+  color: #fff;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: #1b1d21;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Personal-info h2 {
+  color: #0055ff;
+}
+.job-info,
+.school-info {
+  display: flex;
+}
+.job,
+.school {
+  background-color: #0055ff3c;
+  border-radius: 7px;
+  margin: 5px;
+}
+.job .date,
+.school .date {
+  color: #0055ff;
+}
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+  color: #0055ff;
+  margin-bottom: 1rem;
+}
+
+.job,
+.school {
+  padding: 1rem;
+  border-top: 2px solid #1b1d21;
+}
+.about p {
+  line-height: 1.6rem;
+}
+.date {
+  color: #999;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #1b1d21;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  .main-container {
+    max-width: 768px;
+  }
+  .about,
+  .experience,
+  .education,
+  .skills,
+  .Personal-info,
+  .job,
+  .school {
+    width: 90%;
+    margin: 4px;
+    padding: 1rem;
+  }
+}
+@media (max-width: 498px) {
+  .about,
+  .Personal-info,
+  .skills {
+    font-size: 12px;
+    padding: 0.3rem;
+
+    margin: 2px;
+  }
+  .job {
+    margin: 5px;
+  }
+  .job h3 {
+    font-size: 14px;
+  }
+  .job p {
+    font-size: 12px;
+  }
+  .school {
+    margin: 5px;
+  }
+  .school h3 {
+    font-size: 14px;
+  }
+  .school p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 350px) {
+  .main-container {
+    max-width: 968px;
+  }
+}

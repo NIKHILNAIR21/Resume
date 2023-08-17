@@ -1,0 +1,184 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  max-width: 830px;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.name span {
+  background-color: #fff;
+  padding: 13px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.detailed {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ff5e00;
+  color: #fff;
+}
+
+header input {
+  background-color: #fff;
+  padding: 13px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight: 800;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff5e00;
+}
+#about p {
+  background-color: #222;
+  color: #ff5e00;
+  padding: 0.7rem;
+  border-radius: 7px;
+}
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.job-info,
+.school-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.school {
+  margin-bottom: 1.5rem;
+  padding: 0.9rem;
+  background-color: #222;
+  width: 44%;
+  border-radius: 7px;
+}
+.job {
+  margin-bottom: 1.5rem;
+  padding: 0.9rem;
+  background-color: #222;
+  width: 44%;
+  border-radius: 7px;
+}
+.skill {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skill p {
+  background-color: #222;
+  padding: 0.5rem;
+  color: #ff5e00;
+  border-radius: 7px;
+}
+.job p,
+span,
+.school p,
+span {
+  color: #ffffff;
+}
+.job h2,
+.school h2 {
+  color: #ff5e00;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+  header input {
+  }
+  .detailed {
+    text-align: center;
+  }
+
+  .content,
+  .job,
+  .school,
+  .skills-list {
+    width: 92%;
+    padding: 1rem;
+  }
+
+  .job-info,
+  .school-info {
+    flex-direction: column;
+  }
+
+  .skill {
+    flex-wrap: wrap;
+  }
+  .skill p {
+    margin: 2px;
+  }
+  .main-container {
+    max-width: auto;
+  }
+}

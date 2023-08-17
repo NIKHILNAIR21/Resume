@@ -1,0 +1,218 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+p {
+  color: #fff;
+}
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffe2e26a;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  box-shadow: 0 3px 10px rgba(255, 107, 107, 0.666);
+  width: fit-content;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  background-color: #e50914;
+  color: #fff;
+}
+header {
+  text-align: center;
+  background-color: #e50914; /* Netflix's brand color */
+  color: #fff;
+}
+
+header h1 {
+  margin-top: -10px;
+  font-size: 2.5rem;
+}
+
+/* ... Rest of the CSS ... */
+
+.logo {
+  width: 140px; /* Adjust the logo width as needed */
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: -10px;
+  margin-bottom: -30px; /* Center the logo and provide spacing */
+}
+
+/* ... Rest of the CSS ... */
+
+/* ... Rest of the CSS ... */
+
+.about,
+.experience,
+.education,
+.skills {
+  padding: 2rem;
+  background-color: #9b1313;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ... Rest of the CSS ... */
+
+.head {
+  display: flex;
+  align-items: center;
+}
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: stretch;
+  align-items: center;
+}
+.skill-set p {
+  background-color: #f7c3c3;
+  padding: 0.4rem;
+  margin: 0.1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #351717;
+  font-size: 0.9rem;
+}
+.school-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3px;
+}
+.school {
+  width: 44%;
+  background-color: #e50914;
+  padding: 15px;
+  border-radius: 7px;
+}
+.school h3 {
+  background-color: #f7c3c3;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #351717;
+}
+.work-info {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.job {
+  width: 44%;
+  background-color: #e50914;
+  padding: 15px;
+  border-radius: 7px;
+}
+.job h3 {
+  background-color: #f7c3c3;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: fit-content;
+  color: #351717;
+}
+/* ... Rest of the CSS ... */
+
+footer {
+  text-align: center;
+  background-color: #e50914;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .skill-set {
+    justify-content: stretch;
+  }
+  .logo {
+    width: 40px;
+    margin-bottom: 5px;
+  }
+
+  .about,
+  .experience,
+  .education,
+  .skills {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .job,
+  .school {
+    padding: 0.5rem;
+  }
+
+  .date {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    padding: 0.8rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 100px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .about,
+  .experience,
+  .education,
+  .skills {
+    padding: 1rem;
+    margin: 0.3rem;
+  }
+  .work-info {
+    justify-content: center;
+  }
+  .job,
+  .school {
+    padding: 0.8rem;
+  }
+  .school {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .job {
+    width: 90%;
+    margin-bottom: 5px;
+  }
+  .date {
+    font-size: 0.7rem;
+  }
+
+  .school h3,
+  .job h3 {
+    font-size: 0.8rem;
+  }
+
+  .skill-set p {
+    font-size: 0.7rem;
+  }
+
+  footer {
+    padding: 0.7rem 0;
+  }
+}

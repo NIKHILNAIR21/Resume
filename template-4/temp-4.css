@@ -56,7 +56,7 @@ h1 {
 }
 .about h2 {
   background-color: rgb(8, 103, 8);
-  width: 12%;
+  width: fit-content;
   padding: 6px;
   color: #e3e3e3;
   font-size: 18px;
@@ -68,7 +68,7 @@ h1 {
 }
 .experience h2 {
   background-color: rgb(224, 170, 7);
-  width: 13%;
+  width: fit-content;
   padding: 6px;
   color: #efefef;
   font-size: 18px;
@@ -93,7 +93,7 @@ h1 {
 }
 .education h2 {
   background-color: rgb(46, 3, 186);
-  width: 12%;
+  width: fit-content;
   padding: 6px;
   color: #efefef;
   font-size: 18px;
@@ -111,7 +111,7 @@ h1 {
 
 .skills h2 {
   background-color: rgb(5, 143, 156);
-  width: 6%;
+  width: fit-content;
   padding: 6px;
   color: #efefef;
   font-size: 18px;

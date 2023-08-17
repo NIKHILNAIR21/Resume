@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #3c3c3c;
+}
+header {
+  background-color: #c10000; /* Lenovo's brand color */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem 0.1rem;
+}
+.personal-info {
+  text-align: right;
+  padding: 1rem;
+}
+.personal-info p {
+  padding: 0.2rem;
+  color: #ffd2d2;
+
+  border-radius: 0.3rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* ... Rest of the CSS ... */
+
+.logo {
+  width: 100px; /* Adjust the logo width as needed */
+  height: auto;
+  display: block;
+  /* Center the logo and provide spacing */
+}
+
+.about,
+.experience,
+.education,
+.skills {
+  padding: 0.4rem;
+  background-color: #fff;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-info {
+  display: flex;
+  justify-content: space-between;
+}
+.job {
+  width: 44%;
+}
+.job h3 {
+  background-color: #d30000;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #ffd2d2;
+}
+.school-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3px;
+}
+.school {
+  width: 44%;
+}
+.school h3 {
+  background-color: #d30000;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #ffd2d2;
+}
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-set p {
+  background-color: #e60000;
+  padding: 0.4rem;
+  margin: 0.1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #ffd2d2;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: #e60000;
+  text-align: center;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    width: 20px;
+    margin-bottom: 3px;
+  }
+
+  .about,
+  .experience,
+  .education,
+  .skills {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .job,
+  .school {
+    padding: 1rem;
+  }
+
+  .date {
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 0.5rem 0;
+  }
+}

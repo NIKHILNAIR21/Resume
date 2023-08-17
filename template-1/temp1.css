@@ -5,7 +5,7 @@ body {
   background-color: #f4f4f4;
 }
 .main-container {
-  max-width: 47%;
+  max-width: 800px;
   margin: auto;
 }
 .header-container {
@@ -63,8 +63,9 @@ body {
   background-color: #f0c14b;
   color: #111;
   border: none;
-  padding: 6px 12px;
-  border-radius: 4px;
+  padding: 12px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   cursor: pointer;
 }
 .additional-header {
@@ -122,4 +123,66 @@ body {
 #Exp-title,
 #Edu-title {
   color: #e8bb49;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .main-container {
+    max-width: 900px; /* Adjust the width for tablets */
+  }
+  .navbar {
+    width: 100%; /* Adjust the width for tablets */
+    flex-direction: column; /* Stack links vertically */
+    /* Align links to the left */
+    padding: 10px 0; /* Add more spacing */
+  }
+  .nav-link {
+    margin: 8px 0; /* Add vertical spacing */
+  }
+  .additional-header {
+    flex-direction: column; /* Stack additional headers vertically */
+    align-items: center; /* Center align text */
+  }
+  .section-1,
+  .section-2 {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center align content */
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-container {
+    max-width: 900px; /* Adjust the width for mobile devices */
+  }
+  .header-container {
+    flex-direction: column; /* Stack header content vertically */
+    text-align: center; /* Center align text */
+  }
+  .logo {
+    margin-right: 0; /* Remove right margin */
+  }
+  .search-bar {
+    margin-top: 10px;
+    width: 40%;
+    justify-content: space-between; /* Add spacing from header */
+  }
+  .search-input {
+    width: 40%; /* Expand input to full width */
+  }
+  .search-button {
+    /* Add spacing from input */
+  }
+  .personalinfo img {
+    margin-top: 0; /* Remove negative margin */
+  }
+  #about-section,
+  #Edu-section {
+    width: 100%; /* Full width for sections */
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+  .section-content {
+    font-size: 14px; /* Decrease font size for mobile */
+  }
 }
