@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.main-container {
+  max-width: fit-content;
+  margin: auto;
+  background-color: rgb(255, 196, 196);
+  padding-bottom: 5px;
+}
+.header-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #7e0101;
+  color: #fff;
+}
+
+.header-container img {
+  width: 100px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.about,
+.experience,
+.education,
+.skills {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+  color: #d60000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.skill-set {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skill-set p {
+  background-color: #d60000;
+  padding: 9px;
+  border-radius: 7px;
+  color: #fff;
+}
+.about p,
+.experience p,
+.education p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #444;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header-container img {
+    width: 80px;
+  }
+}

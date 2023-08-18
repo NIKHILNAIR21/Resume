@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #74a5e6;
+  padding-bottom: 5px;
+}
+.facebook-header {
+  background-color: #0a4ba0;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.personal {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+}
+.logo-container img {
+  width: 90px;
+  height: 90px;
+}
+
+.logo-container h1 {
+  color: #fff;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.logo-container p {
+  color: #fff;
+  font-size: 20px;
+}
+.header-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a4ba0;
+  color: #fff;
+}
+
+.header-container img {
+  width: 100px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.facebook-bio {
+  background-color: #f0f2f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.bio-text p {
+  color: #000;
+  line-height: 1.6;
+}
+
+.about,
+.experience,
+.education,
+.skills {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+  color: #1877f2;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p,
+.experience p,
+.education p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #444;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .header-container img {
+    width: 80px;
+  }
+}

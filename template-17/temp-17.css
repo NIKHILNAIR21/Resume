@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  max-width: 800px;
+  margin-top: 10px;
+  margin: auto;
+  background-color: #c0d7ff;
+}
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-set p {
+  background-color: #0092d9;
+  padding: 5px;
+  border-radius: 7px;
+  color: #fff;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0092d9;
+  align-items: center;
+  color: #fff;
+}
+.header-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #0092d9;
+  color: #fff;
+}
+
+.header-container img {
+  width: 40px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.about,
+.experience,
+.education,
+.skills {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+  color: #0092d9;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p,
+.experience p,
+.education p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #444;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+/* ... Previous CSS styles ... */
+
+.resume-container {
+  display: flex;
+}
+
+.left-column {
+  flex: 1;
+  background-color: #011e52;
+  padding: 20px;
+}
+
+.left-column header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.right-column {
+  flex: 2;
+  padding: 20px;
+}
+.personal-info {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info h2 {
+  color: #0092d9;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.personal-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.personal-info ul li {
+  color: #444;
+  margin-bottom: 5px;
+}
+
+/* ... Remaining CSS styles ... */
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .resume-container {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    flex: auto;
+  }
+  .header-container img {
+    width: 80px;
+  }
+}
