@@ -1,0 +1,128 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+.main-container {
+  max-width: 800px;
+  background-color: #eefdf8;
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.starbucks-header,
+.contact {
+  background-color: #006241;
+  padding: 20px;
+  color: #fff;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.cup2 {
+  margin-left: 10px;
+}
+.logo-container .logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-container h1 {
+  font-size: 24px;
+}
+
+.about,
+.experience,
+.education,
+.skills {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.edu-part {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: space-between;
+}
+.skill-set {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-set p {
+  background-color: #006241;
+  color: #ffffff;
+  padding: 10px;
+  margin: 6px;
+  font-size: 19px;
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 7px;
+}
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+  color: #006241;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p,
+.experience p {
+  color: #444;
+  line-height: 1.6;
+}
+.education p {
+  background-color: #006241;
+  width: fit-content;
+  padding: 6px;
+  margin: 5px;
+  border-radius: 7px;
+  color: #fff;
+}
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+.education-item {
+  background-color: #88ffd7;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+h3 {
+  color: #444;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
