@@ -1,0 +1,126 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  background-color: #2874f0;
+}
+.flipkart-header {
+  background-color: #2874f0;
+  padding: 20px;
+  color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.title {
+  background-color: #ffffff;
+  width: fit-content;
+  color: #2874f0;
+  border-radius: 4px;
+  padding: 5px;
+}
+.logo-container h1 {
+  font-size: 24px;
+}
+.first-title {
+  display: flex;
+}
+.contact {
+  text-align: right;
+  padding: 6px;
+  border-radius: 5px;
+  color: #2874f0;
+  background-color: #ffe940;
+}
+.about,
+.experience,
+.education {
+  background-color: #fde000;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.skills {
+  background-color: #fde000;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  color: #2874f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.skill-set {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+.skill-set p {
+  background-color: #ffffff;
+
+  margin: 5px;
+  padding: 5px;
+
+  border-radius: 5px;
+}
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+  color: #2874f0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p,
+.experience p,
+.education p,
+.skills p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #444;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
