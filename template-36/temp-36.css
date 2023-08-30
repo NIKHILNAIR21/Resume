@@ -1,0 +1,114 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.main-container {
+  max-width: 800px;
+  background-color: #b1b1b1;
+  margin: 0 auto;
+  padding-bottom: 4px;
+}
+
+.cars24-header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  text-align: right;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 65px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-container h1 {
+  font-size: 24px;
+}
+
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-set p {
+  background-color: #ffa800;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.about,
+.experience,
+.education,
+.skills {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+  color: #ffa800;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about p,
+.experience p,
+.education p,
+.skills p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.edu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 20px;
+}
+.education-item {
+  background-color: #ffa800;
+  padding: 8px;
+  border-radius: 5px;
+}
+h3 {
+  color: #444;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
