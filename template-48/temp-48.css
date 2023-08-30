@@ -1,0 +1,107 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #1c3f73;
+}
+
+/* Header section styles */
+.unacademy-header {
+  background-color: #1c3f73;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.unacademy-header h1 {
+  margin: 0;
+}
+
+/* About section styles */
+.about {
+  margin: 8px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Experience section styles */
+.experience {
+  margin: 8px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience h3 {
+  margin: 0;
+}
+
+/* Education section styles */
+.education {
+  margin: 8px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education h3 {
+  margin: 0;
+}
+
+/* Skills section styles */
+.skills {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-set p {
+  background: #004187;
+  padding: 3px;
+  color: #ddd;
+  margin: 3px;
+  border-radius: 4px;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+/* Footer section styles */
+.unacademy-footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.unacademy-footer p {
+  color: #e95916;
+  text-decoration: none;
+}

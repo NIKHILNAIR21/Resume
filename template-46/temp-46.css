@@ -1,0 +1,149 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply styles to the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the main container */
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffeee4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.pepperfry-header {
+  text-align: center;
+  padding: 20px 0;
+}
+.logo {
+  width: 100px;
+}
+
+.pepperfry-header h1 {
+  color: #e84a27;
+  font-size: 28px;
+}
+
+.pepperfry-header p {
+  color: #333;
+  font-size: 18px;
+}
+
+/* About section styles */
+.pepperfry-about {
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.pepperfry-about h2 {
+  color: #e84a27;
+  font-size: 24px;
+}
+
+.pepperfry-about p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Experience section styles */
+.pepperfry-experience {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.pepperfry-experience h2 {
+  color: #e84a27;
+  font-size: 24px;
+}
+
+.experience-item {
+  margin-top: 15px;
+}
+
+.experience-item h3 {
+  color: #222;
+  font-size: 20px;
+}
+
+.experience-item p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Education section styles */
+.pepperfry-education {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.pepperfry-education h2 {
+  color: #e84a27;
+  font-size: 24px;
+}
+
+.education-item {
+  margin-top: 15px;
+}
+
+.education-item h3 {
+  color: #222;
+  font-size: 20px;
+}
+
+.education-item p {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Skills section styles */
+.pepperfry-skills {
+  padding: 20px 0;
+}
+
+.pepperfry-skills h2 {
+  color: #e84a27;
+  font-size: 24px;
+}
+
+.pepperfry-skills ul {
+  list-style: none;
+}
+.skill-set {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill-set p {
+  background-color: #e84a27;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.pepperfry-skills li {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Footer styles */
+.pepperfry-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pepperfry-footer p {
+  color: #777;
+  font-size: 14px;
+}

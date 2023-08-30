@@ -1,0 +1,160 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply styles to the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Style the main container */
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #3c3c3c;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.curefit-header {
+  text-align: center;
+  padding: 20px 0;
+}
+.logo {
+  width: 100px;
+}
+.curefit-header h1 {
+  color: #d7fc04;
+  font-size: 28px;
+}
+
+.curefit-header p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* About section styles */
+.curefit-about {
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.curefit-about h2 {
+  color: #04f8f0;
+  font-size: 24px;
+}
+
+.curefit-about p {
+  background-color: #04f8f0;
+  padding: 3px;
+  width: fit-content;
+  border-radius: 4px;
+  color: #000000;
+  font-size: 16px;
+}
+
+/* Experience section styles */
+.curefit-experience {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.curefit-experience h2 {
+  color: rgb(251, 4, 86);
+  font-size: 24px;
+}
+
+.experience-item {
+  margin-top: 15px;
+  background: #ff005d;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.experience-item h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.experience-item p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Education section styles */
+.curefit-education {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.curefit-education h2 {
+  color: #e84a27;
+  font-size: 24px;
+}
+
+.education-item {
+  margin-top: 15px;
+  background-color: #e84a27;
+  padding: 4px;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.education-item h3 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.education-item p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Skills section styles */
+.curefit-skills {
+  padding: 20px 0;
+}
+
+.curefit-skills h2 {
+  color: rgb(3, 252, 211);
+}
+.skill-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-set p {
+  background: #04f8f0;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 4px;
+}
+
+.curefit-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: #9dff00;
+}
+
+.curefit-footer p {
+  font-size: 14px;
+}
+
+.curefit-footer a {
+  color: #e84a27;
+  text-decoration: none;
+}
+
+.curefit-footer a:hover {
+  text-decoration: underline;
+}
