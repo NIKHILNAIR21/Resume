@@ -23,7 +23,7 @@ body {
 
 .ola-header {
   background-color: #bbff0f;
-  color: #fff;
+  color: #546a45;
   padding: 20px 0;
   text-align: center;
 }
@@ -100,10 +100,16 @@ body {
 .ola-about p {
   margin-bottom: 20px;
 }
-
-.ola-skills ul {
-  list-style: square;
-  margin-left: 20px;
+.skill-set {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill-set p {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 4px;
+  background: #67ffc2;
 }
 .education-item {
   margin-bottom: 30px;

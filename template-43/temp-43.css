@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 4px;
+  background-color: #ff6d00;
+}
+.rapido-header {
+  background-color: #ff6d00;
+  padding: 10px 0;
+  text-align: center;
+}
+.name p {
+  margin: 0%;
+}
+.rapido-navbar img {
+  max-width: 100px;
+}
+
+.rapido-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rapido-navbar li {
+  margin: 0 15px;
+}
+
+.rapido-navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.rapido-navbar a:hover {
+  color: #222;
+}
+
+.rapido-about,
+.rapido-experience,
+.rapido-education,
+.rapido-skills {
+  padding: 10px 4px;
+  text-align: center;
+  margin: 8px;
+  background-color: #fcd3b6;
+  border-radius: 6px;
+}
+
+.rapido-about h1,
+.rapido-experience h1,
+.rapido-education h1,
+.rapido-skills h1 {
+  color: #ff6d00;
+}
+
+.rapido-skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rapido-skills li {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.edu,
+.exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.experience-item {
+  margin-bottom: 30px;
+  background-color: #ff6a00;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.experience-item h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.experience-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.education-item {
+  margin-bottom: 30px;
+  background-color: #ff6a00;
+  margin: 8px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.education-item h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.education-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+.skill-set {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill-set p {
+  padding: 2px;
+  background-color: #ff6a00;
+  border-radius: 5px;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Add more styles as needed */
