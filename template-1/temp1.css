@@ -4,6 +4,10 @@ body {
   padding: 0;
   background-color: #f4f4f4;
 }
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .main-container {
   max-width: 800px;
   margin: auto;
@@ -84,7 +88,7 @@ body {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .resume-section {
-  padding: 20px;
+  padding: 10px;
   border-bottom: 1px solid #e0e0e0;
 }
 .section-title {
@@ -115,13 +119,17 @@ body {
 
 #about-content,
 #Exp-content,
-#Edu-section {
+#Edu-content {
   text-align: justify;
 }
+
 #skill-title,
 #about-title,
 #Exp-title,
-#Edu-title {
+#Edu-title,
+#projects,
+#Certificate,
+#Languages {
   color: #e8bb49;
 }
 .head {
