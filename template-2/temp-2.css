@@ -18,7 +18,7 @@ body {
   max-width: 800px;
   margin: auto;
   margin-top: 10px;
-  background-color: #f8fdff;
+  background-color: #e2f7ff;
   padding: px;
 }
 
@@ -72,7 +72,8 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  width: 100%;
+
+  max-width: 800px;
 }
 .section-1 {
   width: 30%;
@@ -89,10 +90,20 @@ body {
 .skills {
   margin: 10px;
 }
+.answer {
+  background: #beebff;
+  border-radius: 10px;
+  width: fit-content;
+}
+.certificates,
+.interest {
+  width: fit-content;
+  margin-right: 10px;
+}
 .personalinfo header {
   padding: 5px;
   color: #0077ff;
-  width: 50%;
+  width: fit-content;
   text-align: center;
   font-size: 15px;
   letter-spacing: 3px;
@@ -101,9 +112,11 @@ body {
   text-transform: uppercase;
   background-color: rgb(243, 243, 243);
 }
-.skills header {
+.skills header,
+.certificates header,
+.interest header {
   padding: 5px;
-  width: 40%;
+  width: fit-content;
   color: #0077ff;
   text-align: center;
   font-size: 15px;
@@ -113,7 +126,9 @@ body {
   text-transform: uppercase;
   background-color: rgb(243, 243, 243);
 }
-.skills p {
+.skills p,
+.certificates p,
+.interest p {
   padding: 5px;
   text-transform: uppercase;
   color: #3a6392;
@@ -136,11 +151,11 @@ h2 {
 
 .education-item {
   margin-bottom: 1.5rem;
-  width: 14rem;
+  width: fit-content;
 }
 .education-section h2 {
   padding: 5px;
-  width: 60%;
+  width: fit-content;
   color: #0077ff;
   text-align: center;
   font-size: 15px;
@@ -168,21 +183,29 @@ h2 {
   border-radius: 10px;
 }
 
-.about-content {
+.about-content,
+.project-content {
   flex: 2;
   text-align: justify;
 }
-.about-content p {
+.about-content p,
+.project-content p {
   background-color: rgb(215, 223, 234);
   padding: 10px;
   border-radius: 7px;
 }
-.about-content h2 {
+.about-content h2,
+.project-content h2 {
   color: #0077ff;
   letter-spacing: 3px;
 }
+.project-content h3,
+.project-content h4 {
+  margin: 0%;
+}
 /* exp */
-.experience-section {
+.experience-section,
+.project-section {
   display: flex;
   flex-direction: column;
   margin-top: 3rem;

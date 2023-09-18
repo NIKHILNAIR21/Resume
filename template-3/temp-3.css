@@ -34,21 +34,33 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.profile {
+  margin: 5px;
+  margin-top: 6px;
+}
 /* personal info */
 .personal-info-section {
   background-color: #ff4d53;
   color: #fff;
-
+  text-align: right;
+  align-items: center;
   margin: 0.6rem;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 6px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+.Social span {
+  padding-right: 5px;
 }
 .Address span {
+  text-align: right;
   padding-right: 5px;
 }
 .name-profession {
-  text-align: center;
+  text-align: right;
+  padding-right: 5px;
 }
 .name-profession h2 {
   margin: 0;
@@ -131,6 +143,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.Video-profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
 .experience-date {
   color: #888;
 }
@@ -145,19 +163,19 @@ body {
   display: flex;
   margin-top: -10px;
   padding: 10px;
-
+  flex-wrap: wrap;
   align-items: center;
   background-color: #ffccce;
-
+  justify-content: space-evenly;
   border-radius: 10px;
   width: 96%;
 }
 
 .skills-list p {
   margin-bottom: 0.5rem;
-  padding: 2px;
+  padding: 6px;
   font-weight: 600;
-
+  width: fit-content;
   border-radius: 10px;
   justify-content: space-evenly;
   margin: 2px;
@@ -165,7 +183,7 @@ body {
   text-align: center;
   font-size: 12px;
   background-color: #ff7277;
-  width: 10%;
+
   color: #444;
 }
 /* footer */
@@ -173,4 +191,6 @@ body {
   background-color: #c8102e;
   color: #fff;
   text-align: center;
+}
+@media only screen and (max-width: 480px) {
 }

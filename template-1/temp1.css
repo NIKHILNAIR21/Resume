@@ -2,7 +2,6 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
 }
 a {
   color: #ffffff;
@@ -34,6 +33,9 @@ a {
   font-weight: bold;
   margin-right: 20px;
   letter-spacing: -1px;
+}
+.logo img {
+  width: 50px;
 }
 .nav-links {
   list-style: none;
@@ -88,7 +90,8 @@ a {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .resume-section {
-  padding: 10px;
+  padding: 7px;
+  width: 50%;
   border-bottom: 1px solid #e0e0e0;
 }
 .section-title {
@@ -99,24 +102,34 @@ a {
   font-size: 16px;
   line-height: 1.6;
 }
+.video-question {
+  font-size: 16px;
+  line-height: 0.1;
+}
 .personalinfo img {
   margin-top: -30px;
   height: 160px;
 }
 
-.section-1,
-.section-2 {
+.section-1 {
   display: flex;
   justify-content: space-between;
-}
-.section-1 {
   align-items: center;
 }
-#about-section,
-#Edu-section {
+.part-2 {
+  width: 50%;
+}
+.section-2 {
+  display: flex;
+  gap: 2px;
+  justify-content: space-evenly;
+}
+#about-section {
   width: 28rem;
 }
-
+#Edu-content {
+  width: 20rem;
+}
 #about-content,
 #Exp-content,
 #Edu-content {
@@ -133,64 +146,65 @@ a {
   color: #e8bb49;
 }
 .head {
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 @media screen and (max-width: 768px) {
-  .main-container {
-    max-width: 900px; /* Adjust the width for tablets */
+  .main-container,
+  .navbar {
+    max-width: 500px;
   }
   .navbar {
-    width: 100%; /* Adjust the width for tablets */
-    flex-direction: column; /* Stack links vertically */
-    /* Align links to the left */
-    padding: 10px 0; /* Add more spacing */
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 0;
   }
   .nav-link {
-    margin: 8px 0; /* Add vertical spacing */
+    margin: 8px 0;
   }
-  .additional-header {
-    flex-direction: column; /* Stack additional headers vertically */
-    align-items: center; /* Center align text */
-  }
+  .additional-header,
   .section-1,
   .section-2 {
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center align content */
+    flex-direction: column;
+    align-items: center;
   }
 }
+
 @media screen and (max-width: 480px) {
+  .profile {
+    width: 50px;
+  }
   .main-container {
-    max-width: 900px; /* Adjust the width for mobile devices */
+    max-width: 400px;
   }
   .header-container {
-    flex-direction: column; /* Stack header content vertically */
-    text-align: center; /* Center align text */
+    flex-direction: column;
+    text-align: center;
   }
   .logo {
-    margin-right: 0; /* Remove right margin */
+    margin-right: 0;
+  }
+  .logo img {
+    width: 50px;
   }
   .search-bar {
     margin-top: 10px;
-    width: 40%;
-    justify-content: space-between; /* Add spacing from header */
+    width: 200;
+
+    justify-content: space-between;
   }
   .search-input {
-    width: 40%; /* Expand input to full width */
-  }
-  .search-button {
-    /* Add spacing from input */
-  }
-  .personalinfo img {
-    margin-top: 0; /* Remove negative margin */
+    width: 400px;
+    padding: 1px;
   }
   #about-section,
   #Edu-section {
-    width: 100%; /* Full width for sections */
-    margin-bottom: 20px; /* Add spacing between sections */
+    width: 100%;
+    margin-bottom: 20px;
   }
   .section-content {
-    font-size: 14px; /* Decrease font size for mobile */
+    font-size: 12px; /* Decreased font size for mobile */
   }
 }
